@@ -1,4 +1,3 @@
-# BUBBLE SORTING
 #include <stdio.h>
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
@@ -8,8 +7,7 @@ void bubbleSort(int arr[], int n) {
              temp = arr[j];
            arr[j] = arr[j+1];
         arr[j + 1] = temp;   }    }  } }
-void printArray(int arr[], int size) {
-    int i;
+void printArray(int arr[], int size) { int i;
  for (i = 0; i < size; i++)
         printf("%d ", arr[i]);
  printf("\n");}
